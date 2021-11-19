@@ -15,7 +15,9 @@ buttons.map( button => {
                 }
                 break;
             case '=':
-                display.innerText = eval(display.innerText);
+                if(display.innerText){
+                    display.innerText = eval(display.innerText);
+                }
                 break;
             default:
                 display.innerText += e.target.innerText;
