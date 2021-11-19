@@ -99,13 +99,12 @@ button{
 }
 
 .darkmodeBtn{
-    background-image: url('/projects/calculator/darkmode.png');
+    background-image: url('./darkmode.png');
     background-size: cover;
     background-color: rgba(255, 255, 255, 0);
-    justify-self: end;
-    align-self: flex-end;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
 }
 .darkmodeBtn:hover{
     background-color: rgba(255, 255, 255, 0);
